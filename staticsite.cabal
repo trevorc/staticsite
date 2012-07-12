@@ -1,0 +1,11 @@
+Name: upload
+Version: 0.1
+License: BSD3
+Build-Type: Simple
+Cabal-Version: >=1.8
+
+
+Executable staticsite
+  Main-Is: staticsite.hs
+  Build-Depends: base, containers, bytestring, process, zlib, filepath, directory, MissingH
+  GHC-Options: -Wall -O2
